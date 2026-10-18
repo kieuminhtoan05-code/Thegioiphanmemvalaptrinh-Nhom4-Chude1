@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Nghề nghiệp Công nghệ thông tin</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ==================== -->
+    <!-- MÀN HÌNH GIỚI THIỆU -->
+    <!-- ==================== -->
+
+    <section class="home" id="home">
+
+        <h1>
+            Khám phá những nghề nghiệp
+            Công nghệ thông tin
+        </h1>
+
+        <p>
+            Tìm hiểu những nghề nghiệp thú vị
+            trong lĩnh vực Công nghệ thông tin.
+        </p>
+
+        <button id="startButton">
+            Bắt đầu khám phá
+        </button>
+
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- DANH SÁCH NGHỀ -->
+    <!-- ==================== -->
+
+    <section class="jobs" id="jobs">
+
+        <h1>
+            Các nghề nghiệp trong lĩnh vực CNTT
+        </h1>
+
+        <div class="job-container">
+
+
+            <!-- LẬP TRÌNH VIÊN -->
+
+            <div class="job-card">
+
+                <div class="job-icon">👨‍💻</div>
+
+                <h2>Lập trình viên (Programmer/Developer)</h2>
+
+                <p>
+                    Phát triển website,
+                    ứng dụng và phần mềm.
+                </p>
+
+                <button id="programmerButton">
+                    Xem chi tiết
+                </button>
+
+            </div>
+
+
+            <!-- KỸ SƯ AI -->
+
+            <div class="job-card">
+
+                <div class="job-icon">🧑‍💻</div>
+
+                <h2>Kỹ sư kiểm thử phầm mềm</h2>
+
+                <p>
+                    Phân tích yêu cầu,Lập kế hoạch và viết kịch bản kiểm thử,Thực thi kiểm thử
+                </p>
+
+                <button id="aiButton">
+                    Xem chi tiết
+                </button>
+
+            </div>
+
+
+            <!-- AN NINH MẠNG -->
+
+            <div class="job-card">
+
+                <div class="job-icon">🌐</div>
+
+                <h2> Nghề lập trình viên web</h2>
+
+                <p>
+                    Viết mã,phân tích và thiết kế,iểm thử và sửa lỗi,nâng cấp và bảo trì
+                </p>
+
+                <button id="cyberButton">
+                    Xem chi tiết
+                </button>
+
+            </div>
+
+
+            <!-- UI/UX DESIGNER -->
+
+            <div class="job-card">
+
+                <div class="job-icon">📱</div>
+
+                <h2>Nghề lập trình viên ứng dụng</h2>
+
+                <p>
+                   Phân tích và thiết kế,viết mã,kiểm thử và sửa lỗi,nâng cấp và bảo trì
+                </p>
+
+                <button id="uiuxButton">
+                    Xem chi tiết
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- CHI TIẾT LẬP TRÌNH VIÊN -->
+    <!-- ==================== -->
+
+    <section class="job-detail" id="programmerDetail">
+
+        <div class="detail-box">
+
+            <div class="job-icon">👨‍💻</div>
+
+            <h1>Lập trình viên</h1>
+
+            <p>
+                Lập trình viên là người sử dụng
+                ngôn ngữ lập trình để tạo ra website,
+                ứng dụng, phần mềm và nhiều sản phẩm
+                công nghệ khác.
+            </p>
+
+            <h2>💼 Công việc chính</h2>
+
+            <p>
+                • Viết mã, xây dựng, sửa lỗi và nâng cấp phần mềm
+            </p>
+
+            <h2> 🎯 Sản phẩm </h2>
+
+            <p> • Phần mềm quản lí, chương trình máy tính, ứng dụng</p>
+
+            <h2>🧠 Kỹ năng cần có</h2>
+
+            <p>
+                • Tư duy logic, giải quyết vấn đề, giao tiếp, làm việc nhóm và tự học</p>
+
+            <h2> 🛠️ Công cụ thường dùng</h2>
+
+            <p> • Visual Studio Code, Git, các ngôn ngữ như Python, Java, C++</p>
+
+            <h2> 📈 Triển vọng</h2>
+
+            <p> • Có thể làm việc trong nhiều lĩnh vực và phát triển theo các vị trí chuyên môn khác nhau </p>
+
+            <button id="backProgrammer">
+                ← Quay lại
+            </button>
+
+        </div>
+
+    </section>
+    
+    <!-- ==================== -->
+    <!-- CHI TIẾT KỸ SƯ AI -->
+    <!-- ==================== -->
+
+    <section class="job-detail" id="aiDetail">
+
+        <div class="detail-box">
+
+            <div class="job-icon">🧑‍💻</div>
+
+            <h1>Kỹ sư kiểm thử phần mềm </h1>
+
+            <p>
+                Kỹ sư kiểm thử phần mềm là người chịu trách nhiệm kiểm tra, đánh giá chất lượng sản phẩm phần mềm, phát hiện lỗi (bug) trước khi hệ thống được phát hành đến người dùng
+            </p>
+            <h2>💼 Công việc chính</h2>
+
+            <p>
+                •  Kiểm tra phần mềm, phát hiện lỗi và báo cáo để nhóm phát triển sửa chữa
+            </p>
+
+            <h2> 🎯 Sản phẩm </h2>
+
+            <p> • Báo cáo kiểm thử và phần mềm đã được kiểm tra chất lượng</p>
+
+            <h2>🧠 Kỹ năng cần có</h2>
+
+            <p>
+                • Cẩn thận, tỉ mỉ, tư duy logic và khả năng phân tích</p>
+
+            <h2> 🛠️ Công cụ thường dùng</h2>
+
+            <p> • Jira, Selenium và các công cụ kiểm thử phần mềm</p>
+
+            <h2> 📈 Triển vọng</h2>
+
+            <p> • Có thể phát triển thành chuyên viên kiểm thử tự động hoặc quản lí kiểm thử </p>
+
+            
+            <button id="backAI">
+                ← Quay lại
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- CHI TIẾT AN NINH MẠNG -->
+    <!-- ==================== -->
+
+    <section class="job-detail" id="cyberDetail">
+
+        <div class="detail-box">
+
+            <div class="job-icon">🌐</div>
+
+            <h1>Nghề lập trình viên web</h1>
+
+            <p>
+                Lập trình web là công việc xây dựng, phát triển và duy trì các trang web hoặc ứng dụng hoạt động trên trình duyệt internet
+            </p>
+
+            <h2>💼 Công việc chính</h2>
+
+            <p>
+                •  Xây dựng, thiết kế, nâng cấp và bảo trì website
+            </p>
+
+            <h2> 🎯 Sản phẩm </h2>
+
+            <p> • Trang web bán hàng, website trường học, trang thông tin</p>
+
+            <h2>🧠 Kỹ năng cần có</h2>
+
+            <p>
+                •  Tư duy logic, giải quyết vấn đề và kiến thức về HTML, CSS, JavaScript</p>
+
+            <h2> 🛠️ Công cụ thường dùng</h2>
+
+            <p> • Visual Studio Code, trình duyệt web và Git</p>
+
+            <h2> 📈 Triển vọng</h2>
+
+            <p> • Có thể làm Front-end, Back-end hoặc Full-stack Developer </p>
+
+            <button id="backCyber">
+                ← Quay lại
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==================== -->
+    <!-- CHI TIẾT UI/UX -->
+    <!-- ==================== -->
+
+    <section class="job-detail" id="uiuxDetail">
+
+        <div class="detail-box">
+
+            <div class="job-icon">📱</div>
+
+            <h1>Nghề lập trình viên ứng dụng</h1>
+
+            <p>
+                Lập trình viên ứng dụng là người sử dụng ngôn ngữ lập trình để thiết kế, xây dựng, kiểm thử, bảo trì và tối ưu các phần mềm chạy trên thiết bị di động, máy tính hoặc các nền tảng khác
+            </p>
+
+            <h2>💼 Công việc chính</h2>
+
+            <p>
+                •  Thiết kế, xây dựng, kiểm tra và cập nhật ứng dụng
+            </p>
+
+            <h2> 🎯 Sản phẩm </h2>
+
+            <p> •  Ứng dụng học tập, ứng dụng đặt xe, ứng dụng mua sắm trên điện thoại</p>
+
+            <h2>🧠 Kỹ năng cần có</h2>
+
+            <p>
+                • Tư duy logic, sáng tạo, giải quyết vấn đề và khả năng tự học</p>
+
+            <h2> 🛠️ Công cụ thường dùng</h2>
+
+            <p> • Android Studio, Xcode, Flutter</p>
+
+            <h2> 📈 Triển vọng</h2>
+
+            <p> • Có thể phát triển ứng dụng cho điện thoại, máy tính bảng và nhiều thiết bị khác </p>
+
+            <button id="backUIUX">
+                ← Quay lại
+            </button>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
+// ====================
+// MÀN HÌNH GIỚI THIỆU
+// ====================
+
+const startButton =
+    document.getElementById("startButton");
+
+const home =
+    document.getElementById("home");
+
+const jobs =
+    document.getElementById("jobs");
+
+
+startButton.addEventListener("click", function() {
+
+    home.style.display = "none";
+
+    jobs.style.display = "block";
+
+});
+
+
+// ====================
+// LẬP TRÌNH VIÊN
+// ====================
+
+const programmerButton =
+    document.getElementById("programmerButton");
+
+const programmerDetail =
+    document.getElementById("programmerDetail");
+
+const backProgrammer =
+    document.getElementById("backProgrammer");
+
+
+programmerButton.addEventListener("click", function() {
+
+    jobs.style.display = "none";
+
+    programmerDetail.style.display = "flex";
+
+});
+
+
+backProgrammer.addEventListener("click", function() {
+
+    programmerDetail.style.display = "none";
+
+    jobs.style.display = "block";
+
+});
+
+
+// ====================
+// KỸ SƯ AI
+// ====================
+
+const aiButton =
+    document.getElementById("aiButton");
+
+const aiDetail =
+    document.getElementById("aiDetail");
+
+const backAI =
+    document.getElementById("backAI");
+
+
+aiButton.addEventListener("click", function() {
+
+    jobs.style.display = "none";
+
+    aiDetail.style.display = "flex";
+
+});
+
+
+backAI.addEventListener("click", function() {
+
+    aiDetail.style.display = "none";
+
+    jobs.style.display = "block";
+
+});
+
+
+// ====================
+// AN NINH MẠNG
+// ====================
+
+const cyberButton =
+    document.getElementById("cyberButton");
+
+const cyberDetail =
+    document.getElementById("cyberDetail");
+
+const backCyber =
+    document.getElementById("backCyber");
+
+
+cyberButton.addEventListener("click", function() {
+
+    jobs.style.display = "none";
+
+    cyberDetail.style.display = "flex";
+
+});
+
+
+backCyber.addEventListener("click", function() {
+
+    cyberDetail.style.display = "none";
+
+    jobs.style.display = "block";
+
+});
+
+
+// ====================
+// UI/UX DESIGNER
+// ====================
+
+const uiuxButton =
+    document.getElementById("uiuxButton");
+
+const uiuxDetail =
+    document.getElementById("uiuxDetail");
+
+const backUIUX =
+    document.getElementById("backUIUX");
+
+
+uiuxButton.addEventListener("click", function() {
+
+    jobs.style.display = "none";
+
+    uiuxDetail.style.display = "flex";
+
+});
+
+
+backUIUX.addEventListener("click", function() {
+
+    uiuxDetail.style.display = "none";
+
+    jobs.style.display = "block";
+
+});
+/* ==================== */
+/* CÀI ĐẶT CHUNG */
+/* ==================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+
+    font-family: Arial, sans-serif; /* Hoặc font bạn chọn */
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+}
+
+
+/* ==================== */
+/* MÀN HÌNH GIỚI THIỆU */
+/* ==================== */
+
+.home {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+
+.home h1 {
+    font-size: 48px;
+
+    max-width: 900px;
+
+    margin-bottom: 20px;
+}
+
+
+.home p {
+    font-size: 20px;
+
+    color: black;
+
+    max-width: 700px;
+
+    line-height: 1.6;
+}
+
+
+/* ==================== */
+/* BUTTON */
+/* ==================== */
+
+button {
+    background-color: #007bff;
+
+    color: white;
+
+    border: none;
+
+    padding: 14px 28px;
+
+    font-size: 18px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+
+    transition: 0.3s;
+}
+
+
+button:hover {
+    transform: scale(1.05);
+
+    background-color: #3b82f6;
+}
+
+
+/* ==================== */
+/* DANH SÁCH NGHỀ */
+/* ==================== */
+
+.jobs {
+    display: none;
+
+    min-height: 100vh;
+
+    padding: 50px 30px;
+}
+
+
+.jobs > h1 {
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
+
+
+/* ==================== */
+/* KHUNG 4 NGHỀ */
+/* ==================== */
+
+.job-container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+
+/* ==================== */
+/* THẺ NGHỀ */
+/* ==================== */
+
+.job-card {
+    background-color:  #CCFFCC;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    border-color: #3B82F6;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+.job-card:hover {
+    transform: translateY(-8px);
+
+    background-color: #263449;
+}
+
+
+.job-icon {
+    font-size: 60px;
+}
+
+
+.job-card h2 {
+    font-size: 25px;
+
+    margin: 15px 0;
+}
+
+
+.job-card p {
+    color: #cbd5e1;
+
+    font-size: 16px;
+
+    line-height: 1.6;
+}
+
+
+/* ==================== */
+/* MÀN HÌNH CHI TIẾT */
+/* ==================== */
+
+.job-detail {
+    display: none;
+
+    min-height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+}
+
+
+/* ==================== */
+/* HỘP CHI TIẾT */
+/* ==================== */
+
+.detail-box {
+    background-color: rgb(44, 44, 44);
+
+    max-width: 700px;
+
+    width: 100%;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    text-align: left;
+
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+.detail-box .job-icon {
+    text-align: center;
+
+    font-size: 70px;
+}
+
+
+.detail-box h1 {
+    text-align: center;
+
+    font-size: 40px;
+
+    margin-bottom: 30px;
+}
+
+
+.detail-box h2 {
+    margin-top: 30px;
+
+    font-size: 24px;
+}
+
+
+.detail-box p {
+    color: #cbd5e1;
+
+    line-height: 1.8;
+
+    font-size: 17px;
+}
+
+
+/* ==================== */
+/* ĐIỆN THOẠI */
+/* ==================== */
+
+@media (max-width: 600px) {
+
+    .home h1 {
+        font-size: 32px;
+    }
+
+
+    .home p {
+        font-size: 17px;
+    }
+
+
+    .jobs {
+        padding: 40px 20px;
+    }
+
+
+    .jobs > h1 {
+        font-size: 30px;
+    }
+
+
+    .job-container {
+        grid-template-columns: 1fr;
+    }
+
+
+    .detail-box {
+        padding: 25px;
+    }
+
+
+    .detail-box h1 {
+        font-size: 32px;
+    }
+
+}
